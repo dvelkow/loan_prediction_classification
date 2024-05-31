@@ -2,7 +2,6 @@
 Welcome to my loan classification project! This repository contains my work on predicting loan approval outcomes using various machine learning techniques. This project is based on a dataset from Kaggle.
 
 ## Table of Contents
-## Table of Contents
 - [Overview](#Overview)
 - [Dataset Description](#dataset-description)
 - [Setup Instructions](#setup-instructions)
