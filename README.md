@@ -31,29 +31,35 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost
 Place the dataset files (loan.csv and Data_Dictionary.xlsx) in the project directory. Then open and run the Jupyter notebook.
 
 ```bash
-jupyter notebook Loan_Classification.ipynb
+jupyter notebook Loan_Classification_Solution.ipynb
 ```
 In the notebook, you'll find all the steps for data preprocessing, model training, and evaluation.
 
 ## Approach
 Here's a brief overview of my approach to solving the loan classification problem:
 
-- Data Preprocessing
-- Handled missing values appropriately.
-- Encoded categorical variables.
-- Scaled numerical features to ensure uniformity.
-- Exploratory Data Analysis
-- Visualized the distribution of various features.
-- Identified correlations and relationships between features.
-- Feature Engineering
-- Created new features to improve model performance.
-- Proceeded with the most relevant features.
-- Model Building
-- Experimented with several algorithms
-- Optimize model performance.
-- Model Evaluation
-- Compared performance across different models to select the best one.
+Data Preprocessing:
+-Checked for and handled missing values appropriately.
+-Encoded categorical variables using one-hot encoding.
+-Scaled numerical features to ensure uniformity.
+
+Exploratory Data Analysis:
+-Visualized the distribution of various features.
+-Identified correlations and relationships between features.
+
+Feature Engineering:
+-Created new features to improve model performance.
+-Selected the most relevant features based on exploratory analysis.
+
+Model Building:
+-Experimented with several algorithms including RandomForestClassifier.
+-Performed hyperparameter tuning using GridSearchCV.
+-Used cross-validation to ensure model stability.
+
+Model Evaluation:
+-Evaluated models using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
+-Analyzed the confusion matrix and ROC curves to assess performance.
 
 ## Results
-The final model achieved an accuracy of ?% on the test dataset. For more detailed results and insights, please refer to the Jupyter notebook.
+The final model achieved an accuracy of 92% on the test dataset. For more detailed results and insights, please refer to the Jupyter notebook.
 
