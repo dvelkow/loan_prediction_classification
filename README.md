@@ -38,26 +38,42 @@ In the notebook, you'll find all the steps for data preprocessing, model trainin
 ## Approach
 Here's a brief overview of my approach to solving the loan classification problem:
 
-Data Preprocessing:
+**Data Preprocessing:**
+
 -Checked for and handled missing values appropriately.
+
 -Encoded categorical variables using one-hot encoding.
+
 -Scaled numerical features to ensure uniformity.
 
-Exploratory Data Analysis:
+
+**Exploratory Data Analysis:**
+
 -Visualized the distribution of various features.
+
 -Identified correlations and relationships between features.
 
-Feature Engineering:
+
+**Feature Engineering:**
+
 -Created new features to improve model performance.
+
 -Selected the most relevant features based on exploratory analysis.
 
-Model Building:
+
+**Model Building:**
+
 -Experimented with several algorithms including RandomForestClassifier.
+
 -Performed hyperparameter tuning using GridSearchCV.
+
 -Used cross-validation to ensure model stability.
 
-Model Evaluation:
+
+**Model Evaluation:**
+
 -Evaluated models using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
+
 -Analyzed the confusion matrix and ROC curves to assess performance.
 
 ## Results
