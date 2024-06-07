@@ -23,8 +23,8 @@ To get started with the project, you'll need to set up your Python environment w
 
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/loan-classification.git
-cd loan-classification
+git clone https://github.com/dvelkow/loan_prediction_classification.git
+cd Solution
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost
 ```
 ## How to use
